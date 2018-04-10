@@ -18,12 +18,12 @@ Install
 =======
 
 * httrack [2] was installed on MacOSX using homebrew [3]
-* Jupyter and Python 3 were installed on MacOSX using the Anaconda Package Manager [4]
+* Jupyter and Python 2 were installed on MacOSX using the Anaconda Package Manager [4]
 
 The notebook
 ============
 
-* a Jupyter Notebook with Python 3 was used to generate a script to process the httrack dump
+* a Jupyter Notebook with Python 2 was used to generate a script to process the httrack dump
 * a textfile was generated containing all paths to the html files relatively to the notebook (one path per line).
 * when opening a scraped html of httrack in a browser (here Chrome) and use the inspect feature (poniter in content, right-click "inspect", "untersuchen") to locate the html/xml node that encloses the content.
 * right click on the open tag of the outer node and choose "Copy -> Copy xpath"
