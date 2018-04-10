@@ -2,7 +2,9 @@
 xpath_extractor
 ===============
 
-Quick & Dirty Content Crawler for Jupyter Notebbook using httrack and xpath locator with Python
+Quick & Dirty Content Crawler suitable for Jupyter Notebook using httrack and xpath locator with Python
+
+.. note:: This is not a bullet proof tutorial! The docs are work in progress. It was shown in the WEB SCRAPING Session by Jochen Wersdörfer, Armin Stross-Radschinski during the PythonCamp Cologne 2018. Visitors of the PythonCamp Session [5] will find some gems.
 
 Prerequisites
 =============
@@ -33,22 +35,30 @@ The notebook
 * the content is concatenated into one single html file with Headlines for every file and written to disk
 * the webbrowser module is used to open the html in a browser.
 
-How to start this notebook
-==========================
+How to start this in a notebook
+===============================
 
 This is for newbies, like from the PythonCamp where I demoed this as a coarse q&d solution.
 
-* check out the *.ipynb file into the root of the httrack dump. (In this version, we only deal with files related to this directory)
-* edit a textfile containing all paths to the html files relatively to the notebook (one path per line). You can do this by hand or using your favorite tools.
-* adjust the filenames to the path list and the xpath selector pointing to the content as you like
+* open a terminal and cd into the httrack dump root
+* start the jupyter notebook with the command 'ipython notebook'
+* create a ne notebook and paste the Python code from this repo in a cell
+* edit a textfile containing all paths to the html files relatively to the notebook (one path per line)
+* adjust the filename in the code to your path list file 
+* adjust the xpath selector pointing to the content as you like
 * run the notebook
+
+et voila: The browser should show the resulting collected content.
 
 .. note:: If you know what you are doing you can alternatively copy the Python code in a new running notebook where you want or run it in another way.
 
 ToDo (someday)
 ==============
 
-* Add a code snippet to test the selector without the loop first.
+* add a sample httrach archive
+* add a sample path list file
+* add the notebook file (currently missing due to no time to clean up the history containing sensible data...)
+* add a simpler code snippet in the notebook to test the selector without the loop first.
 
 Links
 =====
@@ -57,4 +67,4 @@ Links
 [2] command "brew install httrack"
 [3] https://brew.sh
 [4] https://www.anaconda.com/distribution/
-[5] WEB SCRAPING Session by Jochen Wersdörfer,Armin Stross-Radschinski on PythonCamp Cologne 2018 https://barcamptools.eu/pycamp201804/
+[5] WEB SCRAPING Session by Jochen Wersdörfer,Armin Stross-Radschinski during PythonCamp Cologne 2018 https://barcamptools.eu/pycamp201804/
