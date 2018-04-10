@@ -63,8 +63,8 @@ ToDo (someday)
 Links
 =====
 
-[1] https://www.httrack.com
-[2] command "brew install httrack"
-[3] https://brew.sh
-[4] https://www.anaconda.com/distribution/
-[5] WEB SCRAPING Session by Jochen Wersdörfer,Armin Stross-Radschinski during PythonCamp Cologne 2018 https://barcamptools.eu/pycamp201804/
+| [1] https://www.httrack.com
+| [2] command "brew install httrack"
+| [3] https://brew.sh
+| [4] https://www.anaconda.com/distribution/
+| [5] WEB SCRAPING Session by Jochen Wersdörfer,Armin Stross-Radschinski during PythonCamp Cologne 2018 https://barcamptools.eu/pycamp201804/
